@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autom", "src\Autom\Autom.csproj", "{C7AA9281-E7F7-508D-BC33-21B371F12079}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autom.Tests", "tests\Autom.Tests\Autom.Tests.csproj", "{A615F831-E60C-51AE-9AE8-0B23B9E287BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7AA9281-E7F7-508D-BC33-21B371F12079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AA9281-E7F7-508D-BC33-21B371F12079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AA9281-E7F7-508D-BC33-21B371F12079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AA9281-E7F7-508D-BC33-21B371F12079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A615F831-E60C-51AE-9AE8-0B23B9E287BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A615F831-E60C-51AE-9AE8-0B23B9E287BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A615F831-E60C-51AE-9AE8-0B23B9E287BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A615F831-E60C-51AE-9AE8-0B23B9E287BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

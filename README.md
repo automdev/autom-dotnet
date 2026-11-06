@@ -159,6 +159,20 @@ using var client = new AutomClient(new AutomClientOptions
 | `UsageAsync` | GET `/v1/usage` | Retrieve real-time usage statistics and credit balance for your Autom account. |
 | `YahooSearchAsync` | GET / POST `/v1/yahoo/search` | Query Yahoo via API and retrieve structured organic results with country and language. |
 
+## All Autom SDKs
+
+| SDK | Package | Install |
+| --- | --- | --- |
+| Node.js | [`@automdev/sdk`](https://www.npmjs.com/package/@automdev/sdk) | `npm install @automdev/sdk` |
+| Python | [`automdev`](https://pypi.org/project/automdev/) | `pip install automdev` |
+| Go | [`autom-go`](https://pkg.go.dev/github.com/automdev/autom-go) | `go get github.com/automdev/autom-go` |
+| .NET | [`Autom`](https://www.nuget.org/packages/Autom) | `dotnet add package Autom` |
+| Ruby | [`autom`](https://rubygems.org/gems/autom) | `gem install autom` |
+| PHP | [`autom/sdk`](https://packagist.org/packages/autom/sdk) | `composer require autom/sdk` |
+| Java | [`autom-java`](https://github.com/automdev/autom-java) | build from source, see its README |
+| CLI | [`@automdev/cli`](https://www.npmjs.com/package/@automdev/cli) | `npm install -g @automdev/cli` |
+| MCP server | [`@automdev/mcp`](https://www.npmjs.com/package/@automdev/mcp) | `npx -y @automdev/mcp` |
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
